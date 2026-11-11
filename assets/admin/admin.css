@@ -1,0 +1,80 @@
+.gsm-wrap .description {
+  max-width: 900px;
+}
+
+.gsm-tabs {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin: 24px 0 16px;
+}
+
+.gsm-tab.is-active {
+  border-color: #2271b1;
+  color: #2271b1;
+  font-weight: 600;
+}
+
+.gsm-panel {
+  display: none;
+  background: #fff;
+  border: 1px solid #dcdcde;
+  padding: 20px;
+  max-width: 1180px;
+}
+
+.gsm-panel.is-active {
+  display: block;
+}
+
+.gsm-hours-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+  gap: 16px;
+  margin-top: 16px;
+}
+
+.gsm-hours-day {
+  border: 1px solid #dcdcde;
+  border-radius: 6px;
+  padding: 14px;
+  background: #fdfdfd;
+}
+
+.gsm-hours-day h3 {
+  margin-top: 0;
+}
+
+.gsm-closed-label {
+  display: block;
+  margin-bottom: 12px;
+}
+
+.gsm-time-slot {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #eee;
+  background: #fff;
+}
+
+.gsm-time-slot strong {
+  grid-column: 1 / -1;
+}
+
+.gsm-time-slot input[type="time"] {
+  width: 100%;
+}
+
+.gsm-copy-actions {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+  margin-top: 12px;
+}
+
+.gsm-debug-json {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
