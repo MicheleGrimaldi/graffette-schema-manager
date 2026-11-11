@@ -2,8 +2,10 @@
 /**
  * Plugin Name: Graffette Schema Manager
  * Description: Genera JSON-LD per LocalBusiness e Person con impostazioni globali, orari di apertura e output automatico/shortcode.
- * Version: 0.2.0
+ * Version: 0.2.1
  * Author: Graffette
+ * License: GPL-2.0-or-later
+ * License URI: https://www.gnu.org/licenses/gpl-2.0.html
  * Text Domain: graffette-schema-manager
  */
 
@@ -11,7 +13,7 @@ if (!defined('ABSPATH')) {
     exit;
 }
 
-define('GSM_VERSION', '0.2.0');
+define('GSM_VERSION', '0.2.1');
 define('GSM_PLUGIN_FILE', __FILE__);
 define('GSM_PLUGIN_DIR', plugin_dir_path(__FILE__));
 define('GSM_PLUGIN_URL', plugin_dir_url(__FILE__));

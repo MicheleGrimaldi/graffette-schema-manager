@@ -45,5 +45,10 @@ Questi elementi restano in carico a Yoast, Rank Math, WooCommerce o al tema.
 
 ## Changelog
 
+- `0.2.1`: licenza GPL-2.0-or-later, nessuna modifica al codice.
 - `0.2.0`: integrazione Yoast, `@id` unico multilingua, LocalBusiness solo in home, area servita multipla, lingue, valute, ContactPoint, vatID, descrizione traducibile WPML, orari raggruppati, filtro `gsm_schema_graph`.
 - `0.1.0`: versione iniziale interna.
+
+## Licenza
+
+GPL-2.0-or-later. Vedi il file `LICENSE`.
